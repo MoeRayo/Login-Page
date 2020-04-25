@@ -1,0 +1,16 @@
+{
+  "name": "first-project",
+  "version": "1.0.0",
+  "description": "login page for Tivere ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoeRayo/Login-Page.git"
+  },
+  "author": "MoeRayo",
+  "license": "ISC",
+  "homepage": "https://github.com/MoeRayo/Login-Page.git#readme"
+}

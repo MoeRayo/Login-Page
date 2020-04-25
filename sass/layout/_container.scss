@@ -1,0 +1,17 @@
+#wrapper{
+    width: 50%;
+    margin: 0 auto;
+    padding: 6rem 0;
+}
+.action{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    &-log{
+        flex-basis: 50%;
+    }
+    &-log{
+        flex-basis: 50%;
+    }
+}

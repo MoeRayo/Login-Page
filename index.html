@@ -3,31 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Login Page</title>
 </head>
 <body>
-    <div id="wrapper">
-        <header class="header">
+        <header class="header"> 
+            <!-- the logo and the arrow section -->
             <img src="images/IMG-20200423-WA00256.png" class="header-image" >
             <p class="header-arrow"><i class="header-arrow--down"></i></p>
         </header>
+        <div id="wrapper"> <!-- wraps the content of the page -->
+            
+            <div class="action"> <!-- the login and sign up section -->
+                <a href="#" class="action-log">Login</a> 
+                <a href="#" class="action-sign">SIGN UP</a>
+            </div>
 
-        <div>
-            <a href="#"  id="log" class="login">Login</a> 
-            <a href="#" id="sign" class="signup">SIGN UP</a>
+            <form class="form"> <!-- the form -->
+            <!-- <div></div> -->
+                <input class="form-input form-tel" type="tel"><i class="fa fa-2x fa-user-circle"></i>
+                <input class="form-input form-tel" type="password"><i class="fa fa-2x fa-lock"></i>
+                <p class="form-forgot">Forgot Password</p>
+                <input type="button" value="LOGIN">
+                <div>Don't have an Account?<a href="#">SIGN UP</a></div>
+            </form>
+            
         </div>
-        <form>
-            <input type="tel">
-            <input type="password">
-            <div>Forgot Password</div>
-            <input type="button" value="LOGIN">
-            <div>Don't have an Account?<a href="#">SIGN UP</a></div>
-        </form>
-        
-
-
-    </div>
     
 </body>
 </html>

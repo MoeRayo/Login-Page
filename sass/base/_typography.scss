@@ -1,0 +1,19 @@
+body,a{
+    font-family:cursive;
+    color: $color-primary;
+}
+a{
+    text-decoration: none;
+    &:hover,&:active{
+    color: $color-background;
+        
+    }
+}
+.action{
+    &-log{
+        font-size: 1.5rem;
+    }
+    &-sign{
+        font-size: .8rem;
+    }
+}

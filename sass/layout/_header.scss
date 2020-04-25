@@ -1,19 +1,19 @@
 .header{
-    background-color: $color-primary;
+    background-color: $color-background;
    text-align: center;
    position: relative;
    padding: 1.3rem 0;
    &-arrow{
        position: absolute;
-      left: 200px;
+      left: 400px;
       bottom: -23px;
       &--down {
-        border: solid $color-primary;
-        border-width: 45px ;
+        border: solid $color-background;
+        border-width: 20px ;
         display: inline-block;
         padding: 0px;
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
+        transform: $arrow;
+        -webkit-transform:$arrow;
       }  
    }
 }

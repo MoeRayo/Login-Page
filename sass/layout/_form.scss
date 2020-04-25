@@ -1,0 +1,26 @@
+.form{
+    width: 100%;
+    position: relative;
+
+    &-input{
+        display: block;
+        width: 95%;
+        margin: 0 auto;  
+        border: none;
+        border-bottom: 1px solid $color-primary;
+        padding: 1rem 3rem 1rem;
+        font-size: 1rem;
+    }
+    .fa{
+        position: absolute;
+        &-user-circle{
+        top: 8px;
+        left:25px;
+        }
+        &-lock{
+            top: 65px;
+            left:25px;
+        
+            }
+    }
+}
